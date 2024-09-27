@@ -1,0 +1,77 @@
+p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-family: 'Arial Narrow Bold';
+    font-weight: bold;
+    font-size: 35px;
+    width: 100%;
+    padding: 12px 13px;
+    background-color: rgb(250, 250, 56);
+    text-align: left;
+    margin-top: 0px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+body {
+    background-color: rgb(11, 11, 11);
+    
+}
+
+.phone {
+    color: rgb(250, 250, 56);
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.introduction {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-bottom: 90px;
+}
+
+.text-one {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.context-one {
+    margin-bottom: 80px;
+}
+
+.text-two {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.content-two {
+    margin-bottom: 90px;
+}
+
+.text-three {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.content-three {
+    margin-bottom: 70px;
+}
