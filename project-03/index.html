@@ -13,21 +13,22 @@
 
 <body id="body" data-bs-theme="dark">
   <div class="navigation mt-4">
-    <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Gallery</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-      <button class="btn btn-light" onclick="changeMode()">Light Mode</button>
-    </ul>
+    <div class="container">
+      <ul class="nav justify-content-center">
+        <li class="nav-item d-flex align-items-center justify-content-center">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <button class="btn btn-light" onclick="changeMode()">Light Mode</button>
+        </li>
+      </ul>
+    </div>
   </div>
 
   <div class="page">
@@ -246,7 +247,7 @@
 
     for (var i = 0; i < texts.length; i++) {
       var myContainer = document.getElementById("winterContainer");
-      myContainer.innerHTML += "<div class=\"col-lg-3 col-md-4 col-sm-6 col-12\"><div class=\"card my-3\" id=\"winter-c" + i + "\" onmouseenter=\"addShadow('winter-c" + i + "'); zoomIn('winter-c" + i + "')\" onmouseleave=\"removeShadow('winter-c" + i + "'); zoomOut('winter-c"+ i + "')\"><img src=\"" + winterImages[i] + "\" class=\"card-img-top\" alt=\"" + texts[i] + "\"><div class=\"card-body\"><h5 class=\"card-title\">" + texts[i] + "</h5><p class=\"card-text\"></p></div></div></div>";
+      myContainer.innerHTML += "<div class=\"col-lg-3 col-md-4 col-sm-6 col-12\"><div class=\"card my-3\" id=\"winter-c" + i + "\" onmouseenter=\"addShadow('winter-c" + i + "'); zoomIn('winter-c" + i + "')\" onmouseleave=\"removeShadow('winter-c" + i + "'); zoomOut('winter-c" + i + "')\"><img src=\"" + winterImages[i] + "\" class=\"card-img-top\" alt=\"" + texts[i] + "\"><div class=\"card-body\"><h5 class=\"card-title\">" + texts[i] + "</h5><p class=\"card-text\"></p></div></div></div>";
     }
 
     for (var i = 0; i < springImages.length; i++) {
@@ -271,7 +272,7 @@
     function zoomIn(id) {
       var zoomImage = document.getElementById(id);
       zoomImage.style.transform = 'scale(1.1)';
-      zoomImage.style.transition ='transform 0.3s ease';
+      zoomImage.style.transition = 'transform 0.3s ease';
     }
 
     function zoomOut(id) {
@@ -305,4 +306,5 @@
 
   </script>
 </body>
+
 </html>
