@@ -88,7 +88,7 @@ body {
 @media (max-width: 576px) {
   .titleOne {
     font-size: 3.2rem;
-    margin-top: -130px;
+    margin-top: -170px;
   }
 }
 
@@ -134,8 +134,8 @@ body {
 
 @media (max-width: 576px) {
   .titleTwo {
-    font-size: 1.9rem;
-    margin-top: -100px;
+    font-size: 2.3rem;
+    margin-top:-140px;
   }
 }
 .shadowTwo {
@@ -180,8 +180,8 @@ body {
 
 @media (max-width: 576px) {
   .shadowTwo {
-    font-size: 1.9rem;
-    margin-top: -100px;
+    font-size: 2.3rem;
+    margin-top:-140px;
   }
 }
 
@@ -354,7 +354,7 @@ body {
   .lName {
     font-size: 3rem;
     margin-top: 170px;
-    margin-left: -3px;
+    margin-left: -39px;
 
   }
 }
