@@ -1,0 +1,364 @@
+body {
+  background-color: rgb(25, 25, 25);
+}
+
+.mainVideo {
+  position: relative;
+}
+
+.pic1{
+  width: 300px;
+}
+@media (max-width: 768px) {
+  .pic1 {
+    width: 250px;
+  }
+}
+
+@media (max-width: 576px) {
+  .pic1 {
+    width: 190px;
+    margin-top: 60px;
+    margin-right: 50px;
+  }
+}
+
+.pic2{
+  width: 130px;
+}
+@media (max-width: 768px) {
+  .pic2 {
+    width: 240px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .pic2 {
+    width: 160px;
+    margin-top: -10px;
+    margin-left: 60px;
+  }
+}
+
+.titleOne {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 112px;
+  left: 50%;
+  top: 600px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: bolder;
+  font-family: "Bangers", cursive;
+  text-shadow: 6px 2px 4px rgb(88, 8, 5), -6px 2px 4px rgb(88, 8, 5),
+    15px 8px 15px rgb(8, 5, 88);
+  white-space: nowrap;
+}
+
+@media (max-width: 992px) {
+  .titleOne {
+    font-size: 6rem;
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .titleOne {
+    font-size: 5rem;
+    margin-top: -40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .titleOne {
+    font-size: 3.2rem;
+    margin-top: -130px;
+  }
+}
+
+.titleTwo {
+  position: absolute;
+  color: rgb(204, 204, 204);
+  font-size: 43px;
+  left: 50%;
+  top: 700px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 10px 2px 5px rgb(6, 0, 129);
+}
+@media (max-width: 992px) {
+  .titleTwo {
+    font-size: 2.5rem;
+    margin-top: -40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .titleTwo {
+    font-size: 2rem;
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .titleTwo {
+    font-size: 1.9rem;
+    margin-top: -130px;
+  }
+}
+.shadowTwo {
+  position: absolute;
+  color: rgb(204, 204, 204);
+  font-size: 43px;
+  left: 50%;
+  top: 700px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: -12px 2px 5px rgb(97, 3, 17);
+}
+@media (max-width: 992px) {
+  .shadowTwo {
+    font-size: 2.5rem;
+    margin-top: -40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .shadowTwo {
+    font-size: 2rem;
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .shadowTwo {
+    font-size: 1.9rem;
+    margin-top: -130px;
+  }
+}
+
+.infoPage {
+  position: relative;
+}
+
+.gif1{
+  width:"320px";
+  height:"160px";
+}
+@media (max-width: 992px) {
+  .gif1 {
+    width: 220px;
+    margin-top: -10px;
+  }
+}
+@media (max-width: 768px) {
+  .gif1 {
+    width: 200px;
+    margin-top: -10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .gif1 {
+    width: 180px;
+    margin-top: -10px;
+    margin-left: -10px;
+  }
+}
+
+.newPic2{
+  width: 130px;
+}
+
+@media (max-width: 768px) {
+  .newPic2 {
+    width: 200px;
+    margin-top: -10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .newPic2 {
+    width: 210px;
+    margin-top: 10px;
+    margin-right: -100px;
+    padding: 0%;
+  }
+}
+
+.pic3{
+  width: 300px;
+}
+@media (max-width: 768px) {
+  .pic3 {
+    width: 200px;
+    margin-top: -10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .pic3 {
+    width: 220px;
+    margin-top: 10px;
+  }
+}
+
+.pic4{
+  width: 180px;
+}
+@media (max-width: 768px) {
+  .pic4 {
+    width: 200px;
+    margin-top: -10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .pic4 {
+    width: 120px;
+    margin-bottom: 50px;
+  }
+}
+
+.fName {
+  font-size: 90px;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(53, 6, 6);
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+  display: inline-block;
+  position: absolute;
+  left: 100px;
+  margin-top: 230px;
+}
+@media (max-width: 992px) {
+  .fName {
+    font-size: 3.9rem;
+    margin-top: 230px;
+    margin-left: -30px
+  }
+}
+
+@media (max-width: 768px) {
+  .fName {
+    font-size: 3.5rem;
+    margin-top: 190px;
+    margin-left: -50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .fName {
+    font-size: 3rem;
+    margin-top: 120px;
+    margin-left: 30px;
+
+  }
+}
+
+@media (max-width: 376px) {
+  .fName {
+    font-size: 3rem;
+    margin-top: 120px;
+    margin-left: 10px;
+    margin-right: 40px;
+
+  }
+}
+
+.lName {
+  font-size: 90px;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(53, 6, 6);
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+  display: inline-block;
+  position: absolute;
+  left: 100px;
+  margin-top: 320px;
+}
+@media (max-width: 992px) {
+  .lName {
+    font-size: 3.9rem;
+    margin-top: 290px;
+    margin-left: -30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lName {
+    font-size: 3.5rem;
+    margin-top: 250px;
+    margin-left: -50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .lName {
+    font-size: 3rem;
+    margin-top: 165px;
+    margin-left: -10px;
+  }
+}
+@media (max-width: 376px) {
+  .lName {
+    font-size: 3rem;
+    margin-top: 170px;
+    margin-left: -35px;
+
+  }
+}
+
+.infoSpiderMan {
+  font-size: 18px;
+  color: rgb(199, 181, 181);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  line-height: 1.6;
+  width: 300px;
+  word-wrap: break-word;
+  white-space: normal;
+  text-align: justify;
+  position: absolute;
+  right: 130px;
+  margin-top: 230px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media (max-width: 992px) {
+  .infoSpiderMan {
+    font-size: 0.8rem;
+    margin-top: 210px;
+    margin-right: -100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .infoSpiderMan {
+    font-size: 0.8rem;
+    margin-top: 160px;
+  }
+}
+
+@media (max-width: 576px) {
+  .infoSpiderMan {
+    font-size: 0.6rem;
+    margin-top: 680px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: -130px;
+    width: 100%;
+  }
+}
+
