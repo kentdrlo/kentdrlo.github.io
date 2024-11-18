@@ -10,6 +10,7 @@ body {
   border-radius: 50%;
   overflow: hidden;
   background-color: white;
+  position: relative;
 }
 
 .profilePic img {
@@ -57,13 +58,11 @@ body {
   }
 }
 
-@media (max-width: 369px) {
+@media (max-width: 345px) {
   .clock {
-    padding: 0;
-    margin-right: 0;
-    width: 120px;
-    right: 10px;
-    top: 15px;
+    width: 200px;
+    right: -20px;
+    top: 300px;
   }
 }
 
