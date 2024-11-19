@@ -21,8 +21,8 @@ body {
 
 .clock {
   position: absolute;
-  top: 20px;
-  right: 1cqh;
+  top: 40px;
+  right: 10px;
   width: 200px;
 }
 
@@ -53,16 +53,16 @@ body {
 @media (max-width: 489px) {
   .clock {
     width: 140px;
-    right: 20px;
+    right: 24x;
     top: 20px;
   }
 }
 
-@media (max-width: 345px) {
+@media (max-width: 351px) {
   .clock {
-    width: 200px;
-    right: -20px;
-    top: 300px;
+    width: 120px;
+    right: 31px;
+    top: 20px;
   }
 }
 
@@ -222,10 +222,21 @@ body {
   transition: transform 0.3s ease;
   transition: background-color 0.9s, color 0.3s;
   background-color: rgb(217, 217, 217);
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .btn-container a:hover {
   transform: scale(1.1);
   background-color: rgb(30, 30, 30);
   color: rgb(244, 244, 244);
+}
+
+.card {
+  transition: border 0.3s ease-in-out;
+  border: 2px solid transparent; 
+}
+
+.card:hover {
+  border: 2px solid white;
 }
