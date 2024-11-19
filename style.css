@@ -29,7 +29,7 @@ body {
 @media (max-width: 992px) {
   .clock {
     width: 200px;
-    top: 20px;
+    top: 21px;
     right: -5px;
   }
 }
