@@ -31,21 +31,18 @@
         @media (max-width: 992px) {
             .narutoTitle h1 {
                 font-size: 2.5rem;
-                /* Medium screens */
             }
         }
 
         @media (max-width: 768px) {
             .narutoTitle h1 {
                 font-size: 2rem;
-                /* Small screens */
             }
         }
 
         @media (max-width: 576px) {
             .narutoTitle h1 {
                 font-size: 1.5rem;
-                /* Extra small screens */
             }
         }
 
@@ -198,7 +195,7 @@
             const character = allCharacters[i];
             if (character) {
                 cardContainer.innerHTML += `
-                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                         <a href="view.html?characterID=${character.id}">
                             <div class="card rounded-5 my-3">
                                 <div class="imgcontainer">
