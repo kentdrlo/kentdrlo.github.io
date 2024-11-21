@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow-x: hidden;
+}
+
+.mainTitle {
+  color: white;
+  font-size: 45px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  height: auto;
+  background: linear-gradient(
+    to bottom right,
+    rgb(11, 32, 51) 20%,
+    rgb(116, 39, 55) 80%
+  );
+
+}
+
+.explore {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.nasa {
+  font-size: 58px;
+  font-family: Helvetica;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.6rem;
+  margin-bottom: 30px;
+}
+
+.nasaContent {
+  font-size: 17px;
+}
+@media (max-width: 467px) {
+  .nasaContent {
+    font-size: 14px;
+  }
+}
+
+.moonContentOne {
+  font-size: 17px;
+}
+@media (max-width: 467px) {
+  .moonContentOne {
+    font-size: 14px;
+  }
+}
+
+.moonContentTwo {
+  margin-top: 15px;
+  font-size: 17px;
+}
+@media (max-width: 467px) {
+  .moonContentTwo {
+    font-size: 14px;
+  }
+}
+
+button {
+  background-color: rgb(21, 37, 49);
+  width: 200px;
+  height: 40px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  text-align: center;
+  border: none;
+  border-radius: 40px;
+  margin-top: 110px;
+  margin-bottom: 100px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(52, 68, 84);
+}
+
+.nasaImg {
+  width: 700px;
+}
+@media (max-width: 768px) {
+  .nasaImg {
+    width: 600px;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .pic3 {
+    width: 220px;
+    margin-top: 10px;
+  }
+}
+
+img {
+  border-radius: 30px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.nasaImg {
+  width: 700px;
+}
+
+@media (max-width: 768px) {
+  .nasaImg {
+    width: 600px;
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 651px) {
+  .nasaImg {
+    width: 500px;
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 539px) {
+  .nasaImg {
+    width: 400px;
+    margin-top: 60px;
+  }
+}
+@media (max-width: 432px) {
+  .nasaImg {
+    width: 300px;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 376px) {
+  .nasaImg {
+    width: 270px;
+    margin-top: 60px;
+  }
+}
+
+.moonImg {
+  width: 400px;
+}
+
+@media (max-width: 768px) {
+  .moonImg {
+    width: 400px;
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 442px) {
+  .moonImg {
+    width: 250px;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 376px) {
+  .moonImg {
+    width: 220px;
+    margin-top: 60px;
+  }
+}
