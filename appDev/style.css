@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(235, 235, 235);
+}
+
+h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
