@@ -63,7 +63,7 @@ h1 {
 .textThree {
   font-size: 50px;
   font-weight: lighter;
-  margin-top: -40px;
+  margin-top: -45px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -77,13 +77,13 @@ h1 {
 .textFour {
   font-size: 30px;
   font-weight: lighter;
-  margin-top: -5px;
+  margin-top: -7px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 @media (max-width: 576px) {
   .textFour {
     font-size: 20px;
-    margin-top: -30px;
+    margin-top: -20px;
   }
 }
 
