@@ -11,7 +11,7 @@ body {
 
 @media (max-width: 992px) {
   .title {
-    font-size: 6rem;
+    font-size: 180px;
     margin-top: -30px;
     margin-left: 0;
   }
@@ -19,7 +19,7 @@ body {
 
 @media (max-width: 768px) {
   .title {
-    font-size: 4.5rem;
+    font-size: 150px;
     margin-top: -20px;
     margin-bottom: 20px;
     margin-left: 0;
@@ -28,8 +28,8 @@ body {
 
 @media (max-width: 576px) {
   .title {
-    font-size: 3rem;
-    margin-top: -10px;
+    font-size: 45px;
+    margin-top: 10px;
     margin-left: 0;
   }
 }
