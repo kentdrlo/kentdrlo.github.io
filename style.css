@@ -49,9 +49,18 @@ body {
   }
 }
 
-@media (max-width: 299px) {
+@media (max-width: 323px) {
   .title {
-    font-size: 35px;
+    font-size: 34px;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+}
+
+
+@media (max-width: 280px) {
+  .title {
+    font-size: 29px;
     margin-top: 10px;
     margin-left: 0;
   }
