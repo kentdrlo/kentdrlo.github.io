@@ -94,6 +94,16 @@ body {
   letter-spacing: 2px;
   text-align: start;
 }
+
+@media (max-width: 995px) {
+  .webInfo {
+    font-size: 25px;
+    margin-top: -26px;
+    text-align: start;
+    font-weight: bolder;
+  }
+}
+
 @media (max-width: 576px) {
   .webInfo {
     font-size: 20px;
