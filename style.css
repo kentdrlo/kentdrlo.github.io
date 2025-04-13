@@ -49,9 +49,9 @@ body {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 299px) {
   .title {
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 10px;
     margin-left: 0;
   }
@@ -198,6 +198,16 @@ body {
     font-weight: bolder;
   }
 }
+
+@media (max-width: 320px) {
+  .webInfo {
+    font-size: 12px;
+    margin-top: -560px;
+    text-align: start;
+    font-weight: bolder;
+  }
+}
+
 
 
 .appInfo {
