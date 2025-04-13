@@ -37,10 +37,7 @@ if (isset($_GET['page'])) {
 </head>
 
 <body>
-    <style>
-
-    </style>
-
+    
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="">
