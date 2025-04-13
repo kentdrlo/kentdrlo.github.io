@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(68, 68, 68);
+  }
+  
+  img{
+    height: auto;
+    width: auto;
+    max-height: 50px;
+    max-width: 200px;
+  }
+  
+  .home{
+      font-weight: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .style{
+      font-weight: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .collection{
+      font-weight: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  }
+  .contact{
+      font-weight: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  }
