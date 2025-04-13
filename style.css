@@ -9,9 +9,17 @@ body {
   margin-top: -60px;
 }
 
+@media (max-width: 1250px) {
+  .title {
+    font-size: 150px;
+    margin-top: -30px;
+    margin-left: 0;
+  }
+}
+
 @media (max-width: 992px) {
   .title {
-    font-size: 180px;
+    font-size: 100px;
     margin-top: -30px;
     margin-left: 0;
   }
@@ -19,26 +27,41 @@ body {
 
 @media (max-width: 768px) {
   .title {
-    font-size: 150px;
+    font-size: 70px;
     margin-top: -20px;
     margin-bottom: 20px;
-    margin-left: 0;
   }
 }
 
 @media (max-width: 576px) {
   .title {
-    font-size: 45px;
+    font-size: 70px;
     margin-top: 10px;
     margin-left: 0;
   }
 }
+
+@media (max-width: 467px) {
+  .title {
+    font-size: 47px;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+}
+
 
 .infoOne {
   font-weight: bold;
   font-size: 18px;
 }
 @media (max-width: 576px) {
+  .infoOne {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 400px) {
   .infoOne {
     font-size: 10px;
     margin-bottom: 20px;
@@ -52,6 +75,12 @@ body {
   margin-bottom: 90px;
 }
 @media (max-width: 576px) {
+  .infoTwo {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 400px) {
   .infoTwo {
     font-size: 10px;
   }
@@ -67,8 +96,64 @@ body {
 }
 @media (max-width: 576px) {
   .webInfo {
+    font-size: 20px;
+    margin-top: -800px;
+    text-align: start;
+    font-weight: bolder;
+  }
+}
+
+
+@media (max-width: 495px) {
+  .webInfo {
+    font-size: 18px;
+    margin-top: -755px;
+    text-align: start;
+    font-weight: bolder;
+  }
+}
+
+
+@media (max-width: 467px) {
+  .webInfo {
+    font-size: 18px;
+    margin-top: -755px;
+    text-align: start;
+    font-weight: bolder;
+  }
+}
+
+@media (max-width: 446px) {
+  .webInfo {
+    font-size: 18px;
+    margin-top: -720px;
+    text-align: start;
+    font-weight: bolder;
+  }
+}
+
+@media (max-width: 415px) {
+  .webInfo {
+    font-size: 18px;
+    margin-top: -700px;
+    text-align: start;
+    font-weight: bolder;
+  }
+}
+
+@media (max-width: 378px) {
+  .webInfo {
     font-size: 15px;
-    margin-top: -630px;
+    margin-top: -650px;
+    text-align: start;
+    font-weight: bolder;
+  }
+}
+
+@media (max-width: 347px) {
+  .webInfo {
+    font-size: 16px;
+    margin-top: -650px;
     text-align: start;
     font-weight: bolder;
   }
@@ -84,8 +169,20 @@ body {
 }
 @media(max-width: 576px){
     .appInfo{
-        font-size: 15px;
+        font-size: 20px;
     }
+}
+
+@media(max-width: 416px){
+  .appInfo{
+      font-size: 17px;
+  }
+}
+
+@media(max-width: 378px){
+  .appInfo{
+      font-size: 14px;
+  }
 }
 
 .myInfo {
