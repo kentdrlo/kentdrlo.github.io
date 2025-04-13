@@ -15,6 +15,12 @@ h1 {
     margin-top: 6px;
   }
 }
+@media (max-width: 948px) {
+  .img01 {
+    margin-top: -30px;
+    margin-bottom: 5px;
+  }
+}
 
 @media (max-width: 576px) {
   .img01 {
@@ -42,6 +48,15 @@ h1 {
   }
 }
 
+@media (max-width: 1245px) {
+  .img03 {
+    margin-top: 30px;
+  }
+}
+
+
+
+
 .textOne {
   font-size: 180px;
   font-weight: bold;
@@ -49,10 +64,10 @@ h1 {
   letter-spacing: 2px;
 }
 
-@media (max-width: 942px) {
+@media (max-width: 948px) {
   .textOne {
     font-size: 150px;
-    margin-top: 60px;
+    margin-top: 65px;
     margin-bottom: 20px;
   }
 }
