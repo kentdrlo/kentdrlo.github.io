@@ -1,12 +1,11 @@
 body {
   background-color: rgb(23, 23, 23);
 }
+
 .navItem{
   cursor: pointer;
   user-select: none;
 }
-
-
 
 .contactIcons img{
   height: 30px;

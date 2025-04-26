@@ -4,6 +4,23 @@ body {
 .card {
   border-style: none;
 }
+
+.contactIcons img {
+  height: 30px;
+  width: auto;
+  margin-right: 10px;
+  margin-left: 15px;
+}
+
+.contactIcons span {
+  font-size: 15px;
+}
+
+.navItem {
+  cursor: pointer;
+  user-select: none;
+}
+
 .nav {
   position: absolute;
   top: 0;
