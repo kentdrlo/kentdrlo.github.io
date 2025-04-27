@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 .card {
-  border-style: none;
+  border: black;
 }
 
 .contactIcons img {
@@ -90,6 +90,39 @@ body {
   }
 }
 
+.whyMainText {
+  margin-top: 70px;
+  font-size: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+@media (max-width: 389px) {
+  .whyMainText {
+    font-size: 40px;
+  }
+}
+
+
+.whySubText {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 589px) {
+  .whySubText {
+    font-size: 16px;
+  }
+}
+
+
+
 .subText {
   margin-top: 115px;
   margin-bottom: 100px;
@@ -161,5 +194,40 @@ body {
 @media (max-width: 336px) {
   .textElements {
     font-size: 8px;
+  }
+}
+
+
+.quote{
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: -35px;
+}
+
+@media (max-width: 789px) {
+  .quote {
+    font-size: 11px;
+  }
+}
+
+
+@media (max-width: 689px) {
+  .quote {
+    font-size: 10px;
+  }
+}
+
+.author{
+  color: white;
+  margin-top: -5px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 489px) {
+  .author {
+    font-size: 10px;
+    margin-top: 8px;
   }
 }
