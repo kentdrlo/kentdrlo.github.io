@@ -1,0 +1,173 @@
+body {
+  background-color: rgb(208, 227, 255);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3b70b6;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(236, 249, 255);
+  border-radius: 10px;
+  display: none;
+}
+
+.card {
+  border-radius: 20px;
+}
+
+.mainContainer {
+  height: 65dvh;
+  background-color: rgb(236, 249, 255);
+  border: none;
+}
+
+.btnMainContent {
+  width: 200px;
+  height: 200px;
+  padding-top: 20px;
+  margin-bottom: 50px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;  
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 15px;
+}
+
+.selectionName{
+  margin-top: -20px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+.selectionPrice{
+  margin-top: -15px;
+  color: rgb(7, 65, 153);
+  font-size: 17px;
+  font-weight: bold;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bottomContainer {
+  height: 28dvh;
+  cursor: pointer;
+  background-color: rgb(236, 249, 255);
+  border: none;
+  overflow-y: none;
+}
+
+.btnBottomContent {
+  width: 180px;
+  height: 100px;
+  background-color: rgb(98, 155, 239);
+  border: 2px white;
+  color: rgb(232, 241, 255);
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.receiptContainer {
+  background-color: rgb(236, 249, 255);
+  color: rgb(0, 0, 0);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+}
+
+.productsContainer {
+  width: fit-content;
+  overflow-y: hidden;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.varietyContainer {
+  width: fit-content;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+
+.textTreats {
+  font-size: 40px;
+  font-family: cursive;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+@media (max-width: 1246px) {
+  .textTreats {
+    font-size: 30px;
+  }
+}
+
+.textReceipt {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.textChoose {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: cursive;
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+}
+
+.textSelections {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: cursive;
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 35px;
+}
+
+@media (max-width: 370px) {
+  .textSelect {
+    font-size: 20px;
+  }
+}
+
+.foodImages{
+    display: flex;
+    justify-content: center;
+}
+
+.totalValue{
+  font-family: 'Courier New', Courier, monospace;
+  padding-right: 18px;
+  font-weight: bold;
+
+}
+
+.acronym{
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.receiptPrice{
+  font-weight: normal;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  padding-right: 20px;
+}
