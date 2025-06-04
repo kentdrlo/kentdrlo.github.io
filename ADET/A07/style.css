@@ -1,0 +1,161 @@
+body {
+  background-color: #faf9f4;
+}
+
+label{
+  margin-bottom: 5px;
+  font-family: cursive, Arial, Helvetica, sans-serif;
+}
+.feedbackFormTitle {
+  margin-top: -10px;
+  width: 1220px;
+}
+
+@media (max-width: 1268px) {
+  .feedbackFormTitle {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 968px) {
+  .feedbackFormTitle {
+    width: 800px;
+  }
+}
+
+@media (max-width: 828px) {
+  .feedbackFormTitle {
+    width: 700px;
+  }
+}
+
+@media (max-width: 728px) {
+  .feedbackFormTitle {
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 528px) {
+  .feedbackFormTitle {
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 398px) {
+  .feedbackFormTitle {
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+.cardForm .card {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border: none;
+  border-radius: 30px;
+}
+
+.feedbackText {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.inputInfo {
+  font-weight: normal;
+}
+
+.chooseFeedback {
+  font-weight: normal;
+  font-family: cursive, Arial, Helvetica, sans-serif;
+}
+
+input.form-control {
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+}
+
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 20px;
+  gap: 16px;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.cardMessage .card {
+  margin-top: 20px;
+  flex: 0 0 auto;
+  width: 300px;
+  height: 270px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+  padding: 16px;
+  font-family: "Comic Sans MS", cursive, Arial, Helvetica, sans-serif;
+  overflow: scroll;
+  overflow-x: hidden;
+  border: none;
+  backdrop-filter: blur(10px);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 1px;
+  margin: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d4d4d4;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(236, 249, 255);
+  border-radius: 10px;
+  display: none;
+}
+
+.submitBtn {
+  margin-top: 10px;
+  background-color: black;
+  font-size: 15px;
+  color: white;
+  width: 150px;
+  height: 45px;
+  border-radius: 50px;
+  border: none;
+  align-items: center;
+}
+
+.reasonSelected {
+  font-weight: bold;
+  margin-top: -40px;
+  font-size: 17px;
+}
+
+.iconImg {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+  padding: none;
+}
+
+input.form-control{
+  border: 1px solid lightgray;
+  border-radius: 10px;
+
+}

@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Feedback Form</title>
+  <link rel="icon" type="image/png" href="resources/iconImg/icon0.png">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col feedbackForm d-flex justify-content-center">
+        <img src="resources/iconImg/feedbackTitle.png" class="feedbackFormTitle">
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 cardForm mt-1 d-flex justify-content-center">
+        <div class="card p-3">
+          <div class="feedbackText text-center">
+            Give Feedback
+          </div>
+
+          <form>
+            <div class="inputInfo d-flex">
+              <div class="name flex-grow-1 mx-2 p-4">
+                <label for="" class="form-label">Name:</label>
+                <input type="text" id="name" class="form-control" placeholder="anonymous" required>
+              </div>
+
+              <div class="background mx-2 p-4">
+                <label for="background">Background:</label>
+                <input type="text" id="background" class="form-control" placeholder="student, ui/ux, front-end"
+                  required>
+              </div>
+            </div>
+
+            <div class="col-12 d-flex justify-content-center">
+              <div class="row">
+                <div class="chooseFeedback text-center mb-1" id="chooseFeedback">Choose a Feedback</div>
+                <div class="selectReason text-center">
+                  <select name="reason" id="reason" class="select text-center p-1"
+                    style="border: 1px solid lightgrey; border-radius: 20px;" required>
+                    <option value="" disabled selected> Select</option>
+                    <option value="General Comment">General Comment</option>
+                    <option value="Compliment">Compliment</option>
+                    <option value="Suggestion">Suggestion</option>
+                    <option value="Question">Question</option>
+                    <option value="Bug Report">Bug Report</option>
+                    <option value="Other">Others</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="message mx-2 p-3">
+              <label for="background">Message:</label>
+              <input type="text" id="messageInput" class="form-control" placeholder="anything" required>
+            </div>
+
+            <div class="my-2 d-flex justify-content-center">
+              <button class="submitBtn" type="submit" onclick="addCard()" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">Submit</button>
+            </div>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Thanks for the Feedback!</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Thank you so much for taking the time to share your thoughts. Your feedback means a lot and helps me
+                    improve. I really appreciate your support!
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col cardMessage">
+        <div class="scroll-container" id="scrollContainer">
+          <div class="card" style="background-color: #e6ffe6;">
+            <img src="resources/iconImg/compliment.png" class="iconImg">
+            <p class="text-center reasonSelected">Compliment</p>
+            <p class="mb-1 mt-2">Name: Anonymous</p>
+            <p class="mb-3">Background: UI Designer</p>
+            <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.</p>
+          </div>
+          <div class="card" style="background-color: #fffceb;">
+            <img src="resources/iconImg/chat.png" class="iconImg">
+            <p class="text-center reasonSelected"> General Comment</p>
+            <p class="mb-1 mt-2">Name: Client</p>
+            <p class="mb-3">Background: Business Owner</p>
+            <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor
+              sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="card" style="background-color: #e0f7fa;">
+            <img src="resources/iconImg/idea.png" class="iconImg">
+            <p class="text-center reasonSelected"> Suggestion</p>
+            <p class="mb-1 mt-2">Name: Guess Mo</p>
+            <p class="mb-3">Background: Prof</p>
+            <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.</p>
+          </div>
+          <div class="card" style="background-color: #e8f0fe;">
+            <img src="resources/iconImg/question.png" class="iconImg">
+            <p class="text-center reasonSelected"> Question</p>
+            <p class="mb-1 mt-2">Name: Unknown</p>
+            <p class="mb-3">Background: Student</p>
+            <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor
+              sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="card" style="background-color: #ffe0e0;">
+            <img src="resources/iconImg/alert.png" class="iconImg">
+            <p class="text-center reasonSelected"> Bug Report</p>
+            <p class="mb-1 mt-2">Name: Basta Dev</p>
+            <p class="mb-3">Background: Back-End Dev</p>
+            <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="card" style="background-color: #e0f7fa;">
+            <img src="resources/iconImg/idea.png" class="iconImg">
+            <p class="text-center reasonSelected"> Suggestion</p>
+            <p class="mb-1 mt-2">Name: IT</p>
+            <p class="mb-3">Background: Front-End Dev</p>
+            <p class="mb-2">eLorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.</p>
+          </div>
+          <div class="card" style="background-color: #f3f4f6;">
+            <img src="resources/iconImg/warning.png" class="iconImg">
+            <p class="text-center reasonSelected">Others</p>
+            <p class="mb-1 mt-2">Name: anonymous</p>
+            <p class="mb-3">Background: boy kompyuter</p>
+            <p class="mb-2">eLorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+
+    function addCard() {
+      var name = document.getElementById("name").value;
+      var background = document.getElementById("background").value;
+      var reason = document.getElementById("reason").value;
+      var message = document.getElementById("messageInput").value;
+
+      if (!name || !background || !reason || !message) {
+        alert("Please fill in all the fields before submitting.");
+        return;
+      }
+
+      var iconSrc = "";
+      var bgColor = "";
+
+      switch (reason) {
+        case "Compliment":
+          iconSrc = "resources/iconImg/compliment.png";
+          bgColor = "#e6ffe6";
+          break;
+        case "Suggestion":
+          iconSrc = "resources/iconImg/idea.png";
+          bgColor = "#e0f7fa";
+          break;
+        case "Bug Report":
+          iconSrc = "resources/iconImg/alert.png";
+          bgColor = "#ffe0e0";
+          break;
+        case "Question":
+          iconSrc = "resources/iconImg/question.png";
+          bgColor = "#e8f0fe";
+          break;
+        case "General Comment":
+          iconSrc = "resources/iconImg/chat.png";
+          bgColor = "#fffceb";
+          break;
+        case "Other":
+        case "Others":
+          iconSrc = "resources/iconImg/warning.png";
+          bgColor = "#f3f4f6";
+          break;
+      }
+
+      var newCardMessage = `
+        <div class="card" style="background-color: `+ bgColor + `">
+            <img src="` + iconSrc + `" class="iconImg">
+            <p class="text-center reasonSelected">` + reason + `</p>
+            <p class="mb-1 mt-2">Name: ` + name + ` </p>
+            <p class="mb-3">Background: ` + background + `</p>
+            <p class="mb-2"> ` + message + `</p>
+        </div>
+          `
+      document.getElementById("scrollContainer").innerHTML += newCardMessage;
+
+    }
+
+
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
