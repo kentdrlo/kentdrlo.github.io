@@ -223,3 +223,8 @@ h1 {
     margin-bottom: 30px;
   }
 }
+
+
+.embedFeedbackForm .card{
+  border: none;
+}
