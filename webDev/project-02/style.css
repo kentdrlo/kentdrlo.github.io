@@ -140,7 +140,7 @@ body {
   margin-top: 80px;
   margin-left: 20px;
   margin-right: 20px;
-  box-shadow: 10px 15px 15px rgb(105, 103, 103);
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .train-title {
@@ -160,7 +160,7 @@ body {
   margin-top: 40px;
   margin-left: 20px;
   margin-right: 20px;
-  box-shadow: 10px 15px 15px rgb(120, 119, 119);
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .museum-title {
@@ -181,7 +181,7 @@ body {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 80px;
-  box-shadow: 10px 15px 15px rgb(120, 119, 119);
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .cheese-text {
